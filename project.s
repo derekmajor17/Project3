@@ -20,3 +20,11 @@
   GN: .word 17
   HN: .word 18
   IN: .word 19
+  JN: .word 20
+  KN: .word 21
+  LN: .word 22
+  MN: .word 23
+  NN: .word 24
+  ON: .word 25
+  PN: .word 26
+  QN: .word 27
