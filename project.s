@@ -80,4 +80,16 @@ main:
      beq $t3,$t7, invalid               
      beq $t4,$t7, invalid
          
-     
+     move $a0, $t1
+     li $v0, 1
+     syscall
+     move $a0, $t2
+     li $v0, 1
+     syscall
+     move $a0, $t3
+     li $v0, 1
+     syscall
+     move $a0, $t4
+     li $v0, 1
+     syscall
+     j exit 
