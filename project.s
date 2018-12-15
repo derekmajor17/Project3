@@ -28,3 +28,6 @@
   ON: .word 25
   PN: .word 26
   QN: .word 27
+  zeroN: .word 0
+  bad: .word 99
+   
