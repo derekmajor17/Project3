@@ -175,3 +175,56 @@ addi $t5, $zero, 'a'
      
      addi $t5, $zero, 'q'  
      beq $t0,$t5,Q
+
+     addi $t5, $zero, 'A'  
+     beq $t0,$t5,A     
+     
+     addi $t5, $zero, 'B'  
+     beq $t0,$t5,B 
+
+     addi $t5, $zero, 'C'  
+     beq $t0,$t5,C 
+     
+     addi $t5, $zero, 'D'  
+     beq $t0,$t5,D  
+
+     addi $t5, $zero, 'E'  
+     beq $t0,$t5,E 
+     
+     addi $t5, $zero, 'F'  
+     beq $t0,$t5,F  
+
+     addi $t5, $zero, 'G'  
+     beq $t0,$t5,G 
+     
+     addi $t5, $zero, 'H'  
+     beq $t0,$t5,H
+
+     addi $t5, $zero, 'I'  
+     beq $t0,$t5,I     
+     
+     addi $t5, $zero, 'J'  
+     beq $t0,$t5,J 
+
+     addi $t5, $zero, 'K'  
+     beq $t0,$t5,K 
+     
+     addi $t5, $zero, 'L'  
+     beq $t0,$t5,L  
+
+     addi $t5, $zero, 'M'  
+     beq $t0,$t5,M 
+     
+     addi $t5, $zero, 'N'  
+     beq $t0,$t5,N  
+
+     addi $t5, $zero, 'O'  
+     beq $t0,$t5,O
+     
+     addi $t5, $zero, 'P'  
+     beq $t0,$t5,P
+     
+     addi $t5, $zero, 'Q'  
+     beq $t0,$t5,Q
+     
+     jr $ra # exit    #jump to exit program
