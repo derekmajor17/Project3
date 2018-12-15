@@ -298,3 +298,50 @@ Q:
 lw $t6, QN($zero)
  jr $ra
  
+#loads word and jumps registers for 1-9
+one:
+ lw $t6, oneN($zero)
+ jr $ra
+      
+ two:
+ lw $t6, twoN($zero)
+ jr $ra
+ 
+ 
+ three:
+ lw $t6, threeN($zero)
+  jr $ra
+ 
+ four:
+ lw $t6, fourN($zero)
+  jr $ra
+      
+ five:
+ lw $t6,fiveN($zero)
+  jr $ra
+ 
+ 
+ six:
+ lw $t6, sixN($zero)
+  jr $ra
+ 
+ 
+ seven:
+ lw $t6, sevenN($zero)
+  jr $ra
+      
+ eight:
+ lw $t6, eightN($zero)
+  jr $ra
+ 
+ 
+ nine:
+ lw $t6, nineN($zero)
+  jr $ra
+ 
+ 
+  zero:
+  lw $t6, zeroN($zero)
+  jr $ra
+  
+  
