@@ -68,3 +68,9 @@ main:
      move $t0, $v0 
      la $t6,bad
      jal validate
+
+     move $t4, $t6
+
+     li $v0, 4
+     la $a0, line
+     syscall 
