@@ -74,3 +74,10 @@ main:
      li $v0, 4
      la $a0, line
      syscall 
+
+     beq $t1,$t7, invalid    
+     beq $t2,$t7, invalid    
+     beq $t3,$t7, invalid               
+     beq $t4,$t7, invalid
+         
+     
