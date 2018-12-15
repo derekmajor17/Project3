@@ -93,3 +93,34 @@ main:
      li $v0, 1
      syscall
      j exit 
+
+validate:     
+     addi $t5, $zero, '1'  
+     beq $t0,$t5, one
+
+     addi $t5, $zero, '2'  
+     beq $t0,$t5,two       
+     
+     addi $t5, $zero, '3'  
+     beq $t0,$t5,three  
+
+     addi $t5, $zero, '4'  
+     beq $t0,$t5,four 
+     
+     addi $t5, $zero, '5'  
+     beq $t0,$t5,five  
+
+     addi $t5, $zero, '6'  
+     beq $t0,$t5,six 
+     
+     addi $t5, $zero, '7'  
+     beq $t0,$t5,seven  
+
+     addi $t5, $zero, '8'  
+     beq $t0,$t5,eight 
+     
+     addi $t5, $zero, '9'  
+     beq $t0,$t5,nine
+      
+      addi $t5, $zero, '0'  
+     beq $t0,$t5,zero 
