@@ -124,3 +124,54 @@ validate:
       
       addi $t5, $zero, '0'  
      beq $t0,$t5,zero 
+
+addi $t5, $zero, 'a'  
+     beq $t0,$t5,A     
+     
+     addi $t5, $zero, 'b'  
+     beq $t0,$t5,B 
+
+     addi $t5, $zero, 'c'  
+     beq $t0,$t5,C 
+     
+     addi $t5, $zero, 'd'  
+     beq $t0,$t5,D  
+
+     addi $t5, $zero, 'e'  
+     beq $t0,$t5,E 
+     
+     addi $t5, $zero, 'f'  
+     beq $t0,$t5,F  
+
+     addi $t5, $zero, 'g'  
+     beq $t0,$t5,G 
+     
+     addi $t5, $zero, 'h'  
+     beq $t0,$t5,H
+
+     addi $t5, $zero, 'i'  
+     beq $t0,$t5,I     
+     
+     addi $t5, $zero, 'j'  
+     beq $t0,$t5,J 
+
+     addi $t5, $zero, 'k'  
+     beq $t0,$t5,K 
+     
+     addi $t5, $zero, 'l'  
+     beq $t0,$t5,L  
+
+     addi $t5, $zero, 'm'  
+     beq $t0,$t5,M 
+     
+     addi $t5, $zero, 'n'  
+     beq $t0,$t5,N  
+
+     addi $t5, $zero, 'o'  
+     beq $t0,$t5,O
+     
+     addi $t5, $zero, 'p'  
+     beq $t0,$t5,P
+     
+     addi $t5, $zero, 'q'  
+     beq $t0,$t5,Q
