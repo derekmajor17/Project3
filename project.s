@@ -30,4 +30,9 @@
   QN: .word 27
   zeroN: .word 0
   bad: .word 99
-   
+  line: .asciiz  "\n"
+   emptyInput:   .asciiz "Input is empty.(valid)"   #Adds string to data
+   invalidInput: .asciiz "Invalid base-27 number."   #Adds string to data
+  longInput:    .asciiz "Input is too long(good)"   #Adds string to data
+
+.text
