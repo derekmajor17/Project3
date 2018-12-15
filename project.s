@@ -228,3 +228,73 @@ addi $t5, $zero, 'a'
      beq $t0,$t5,Q
      
      jr $ra # exit    #jump to exit program
+
+#loads word and jumps case based on upper case letter 
+A:
+lw $t6, AN($zero)
+ jr $ra
+
+B:
+lw $t6, BN($zero)
+ jr $ra
+
+C:
+lw $t6, CN($zero)
+ jr $ra
+
+D:
+lw $t6, DN($zero)
+ jr $ra
+
+E:
+lw $t6, EN($zero)
+ jr $ra
+
+F:
+lw $t6, FN($zero)
+ jr $ra
+ 
+ G:
+lw $t6, GN($zero)
+ jr $ra
+
+H:
+lw $t6, HN($zero)
+ jr $ra
+ 
+ I:
+lw $t6, IN($zero)
+ jr $ra
+
+J:
+lw $t6, JN($zero)
+ jr $ra
+
+K:
+lw $t6, KN($zero)
+ jr $ra
+
+L:
+lw $t6, LN($zero)
+ jr $ra
+
+M:
+lw $t6, MN($zero)
+ jr $ra
+
+N:
+lw $t6, NN($zero)
+ jr $ra
+ 
+O:
+lw $t6, ON($zero)
+ jr $ra
+
+P:
+lw $t6, PN($zero)
+ jr $ra
+ 
+Q:
+lw $t6, QN($zero)
+ jr $ra
+ 
