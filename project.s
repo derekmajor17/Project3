@@ -344,4 +344,19 @@ one:
   lw $t6, zeroN($zero)
   jr $ra
   
-  
+  #invalid cases 
+ invalid:
+ li $v0, 4 
+ la $a0, invalidInput 
+ syscall   
+ j exit 
+ 
+ #valid cases 
+ valid:
+ li $v0, 4
+ la $a0, emptyInput
+ syscall
+ 
+  exit:
+     li $v0, 10     # load code to exit the program
+     syscall
