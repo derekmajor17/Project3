@@ -13,3 +13,10 @@
   tenN: .word 10
   AN: .word 11
   BN: .word 12
+  CN: .word 13
+  DN: .word 14
+  EN: .word 15
+  FN: .word 16
+  GN: .word 17
+  HN: .word 18
+  IN: .word 19
