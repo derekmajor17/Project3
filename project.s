@@ -48,3 +48,10 @@ main:
      jal validate
      #beq $t6,$t7, invalid
      
+     move $t1, $t6
+     li $v0, 12    # loads userInput in $v0
+     syscall
+     move $t0, $v0 
+     la $t6,bad
+     jal validate 
+     #beq $t6,$t7, invalid
