@@ -61,3 +61,10 @@ main:
      move $t0, $v0 
      la $t6,bad
      jal validate  
+
+     move $t3, $t6
+     li $v0, 12    # loads userInput in $v0
+     syscall
+     move $t0, $v0 
+     la $t6,bad
+     jal validate
