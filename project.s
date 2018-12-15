@@ -36,3 +36,10 @@
   longInput:    .asciiz "Input is too long(good)"   #Adds string to data
 
 .text
+
+.globl main
+main:
+     la $t7,bad
+
+     li $v0, 12    # loads userInput in $v0
+     syscall
